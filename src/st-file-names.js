@@ -16,10 +16,11 @@ import { NotImplementedError } from '../extensions/index.js';
  *
  */
 export default function renameFiles(names) {
-  for (let i = 0; i < names.length; i++) {
-    if (names[i] == names[i+1]) {
-      names[i+1] = names[i](i);
-    } else if ()
-    return names;
-  }
+  throw new NotImplementedError('Not implemented');
+  // for (let i = 0; i < names.length; i++) {
+  //   if (names[i] == names[i+1]) {
+  //     names[i+1] = names[i](i);
+  //   } else if ()
+  //   return names;
+  // }
 }
